@@ -1,0 +1,14 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: provision-centos
+  description: deploy centos
+  annotations:
+    backstage.io/kubernetes-id: provision-centos
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: neenspa/provision-centos
+spec:
+  type: api
+  lifecycle: production
+  owner: amargheritini
